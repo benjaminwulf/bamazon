@@ -83,7 +83,7 @@ function startPrompt() {
         console.log(newStockQuantity);
         var total = itemIdPrice * qCustomer
         console.log(total);
-        })
+        // })
 
         if (newStockQuantity > -1) {
             //   \/\/ to concat thing
@@ -108,6 +108,7 @@ function startPrompt() {
             console.log("")
             console.log("Sorry, not enough stock quanity to fulfill order.")
             console.log("")
-        }
+            }
+        })
     })
 };
